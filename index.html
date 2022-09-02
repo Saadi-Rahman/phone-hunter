@@ -13,16 +13,19 @@
     <main>
         <!-- search field -->
         <section>
-            <div class="input-group mb-3">
+            <div class="input-group mb-4">
                 <input id="search-field" type="text" class="form-control" placeholder="Search your Phone" aria-describedby="button-addon2">
                 <button class="btn btn-outline-primary" type="button" id="btn-search">Search</button>
               </div>
         </section>
 
         <!-- display search result -->
-        <section>
+        <section class="mb-5">
             <div id="phones-container" class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
 
+            </div>
+            <div id="alert-text" class="d-none my-2">
+                <h3 class="text-warning py-4">No Phone Found! Please try a new search.</h3>
             </div>
         </section>
     </main>
